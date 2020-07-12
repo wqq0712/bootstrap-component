@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Dashboard Template for Bootstrap</title>
+  <!-- Bootstrap core CSS -->
+  <link href="style/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="style/dashboard.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="app">
+    <!--头部导航区域-->
+  </div>
+  <script src="./node_modules/vue/dist/vue.js"></script>
+  <script src="./node_modules/axios/dist/axios.js"></script>
+  <script src="./node_modules/vue-router/dist/vue-router.js"></script>
+  <script src="./node_modules/pubsub-js/src/pubsub.js"></script>
+  <script src="./components/appNavbar.js"></script>
+  <script src="./components/appLeft.js"></script>
+  <!--dashboard和dataList要声明在appHome前面-->
+  <script src="./components/main/dashboard.js"></script>
+  <script src="./components/main/tableItem.js"></script>
+  <script src="./components/main/dataList.js"></script>
+  <script src="./components/main/appHome.js"></script>
+  <script src="./components/main/news.js"></script>
+  <script src="./components/main/sport.js"></script>
+  <script src="./components/main/tech.js"></script>
+  <script src="./components/main/sportDetail.js"></script>
+  <script src="./components/main/techDetail.js"></script>
+  <script src="./components/main/aboutus.js"></script>
+  <script src="router.js"></script>
+  <script src="App.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

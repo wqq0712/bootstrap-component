@@ -1,0 +1,8 @@
+[
+    {"id":"1", "name":"张小一", "age":28, "height":178, "address": "福建省福州市鼓楼区1113", "score": 198},
+    {"id":"2", "name":"张小二", "age":29, "height":181, "address": "福建省福州市鼓楼区2223", "score": 298},
+    {"id":"3", "name":"张小三", "age":21, "height":160, "address": "福建省福州市鼓楼区3333", "score": 398},
+    {"id":"4", "name":"张小四", "age":38, "height":150, "address": "福建省福州市鼓楼区4443", "score": 498},
+    {"id":"5", "name":"张小五", "age":18, "height":191, "address": "福建省福州市鼓楼区5553", "score": 598},
+    {"id":"6", "name":"张小六", "age":48, "height":181, "address": "福建省福州市鼓楼区6663", "score": 698}
+]
